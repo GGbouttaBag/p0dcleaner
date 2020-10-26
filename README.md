@@ -1,19 +1,79 @@
-RU. Программа создана shiba#0788 
+RU.
 
-Инструкция по запуску
-1. Откройте folder.txt и вставьте путь к папке .minecraft
-2. Запустить zer0.bat
-3. Выбрать что вы собираетесь сделать с файлами читов
-4. Радоваться жизни)
+p0dcleaner - утилита для удаления 99% истории активности Windows (Мне кажется лучше CCleaner'a)
 
-Мое приложение спрятало файлы читов в папке .minecraft (Impact, schematica, Kami Blue, SalHack, baritone, Ares, nodus, Inertia) и удалило их историю активности (историю активности можно посмотреть в приложении LastActivityView)
+Функционал:
 
-EN. by shiba#0788
+  + Создание секретной папки
+  
+  + Очистка всех журналов Windows.
+  + Очистка вызовов wevtutil
+  + Очистка ShellBag. История запуска приложений и доступа к папкам, связанная с "оболочкой"
+  + Очистка Explorer. История запуска приложений связанная с "Проводником"
+  + Очистка ComDlg32. История диалогов "открыть\сохранить" и "последних мест посещений"
+  + Очистка UserAssist. Список запущенных программ в меню "Пуск"
+  + Очистка AppCompatCache
+  + Очистка DiagnosedApplications. Диагностика утечек памяти в приложении ОС Windows
+  + Очистка Search. История поиска
+  + Очистка история службы Background Activity Moderator
+  + Очистка списка программ, для которых задан "режим совместимости" или "запускать от имен администратора"
+  + Очистка История "монтирования" дисков в т.ч. и TrueCrypt
+  + Очистка Panther
+  + Очистка AppCompat
+  + Очистка Prefetch. Удаление файлов, оптимизирующих запуск приложений
+  + Очистка SuperFetch. Удаление баз оптимизации SuperFetch
+  + Очистка Trace. Удаление файлов трассировки
+  + Очистка Удаление дампов ошибок
+  
+Программа удаляет историю из таких программ как:
+  - LastActivityView
+  - EveryThing
+  - ExecutedProgramsList 
+  - ShellBagsView
+  - UserAssistView
+  - OpenSaveFilesView
+  - Background Activity Moderator
+  - AppCompatibilityView
+  - JumpListsView 
+  - RecentFilesView
 
-How to use
-1. Open folder.txt and paste path to .minecraft folder
-2. Open zer0.bat
-3. Choose, hide or show your cheats files (1. Hide 2. Show)
-4. Enjoy!)
+EN. (by Google Translate)
 
-My app hided all files of cheats in .minecraft folder ((Impact, schematica, Kami Blue, SalHack, baritone, Ares, nodus, Inertia)) and deleted their activity history
+p0dcleaner - utility to clean 99% of Windows activity history. ( I think, it's better then CCLeaner)
+
+Functional:
+
+  + Create a secret folder
+  
+  + Clearing all Windows logs.
+  + Clean up wevtutil calls
+  + Cleaning ShellBag. Application launch and folder access history related to "shell"
+  + Cleaning Explorer. Application launch history associated with File Explorer
+  + Cleaning ComDlg32. History of "open \ save" and "last visited" dialogs
+  + Cleaning up UserAssist. List of running programs in the Start menu
+  + Clearing AppCompatCache
+  + Cleaning DiagnosedApplications. Diagnosing memory leaks in a Windows application
+  + Cleaning Search. Search history
+  + Clearing Service History Background Activity Moderator
+  + Clearing the list of programs for which "compatibility mode" or "run as administrator" is set
+  + Cleaning History of "mounting" drives, incl. and TrueCrypt
+  + Cleaning Panther
+  + Cleanup AppCompat
+  + Cleaning Prefetch. Removing files that optimize application launch
+  + Cleaning SuperFetch. Removing SuperFetch Optimization Bases
+  + Cleaning Trace. Removing trace files
+  + Cleanup Delete error dumps
+  
+The program removes history from programs such as:
+
+  - LastActivityView
+  - EveryThing
+  - ExecutedProgramsList 
+  - ShellBagsView
+  - UserAssistView
+  - OpenSaveFilesView
+  - Background Activity Moderator
+  - AppCompatibilityView
+  - JumpListsView 
+  - RecentFilesView
+    and maybe more :)
