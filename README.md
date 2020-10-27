@@ -4,7 +4,7 @@ p0dcleaner - утилита для удаления 99% истории акти�
 
 Функционал:
 
-  + Создание секретной папки
+  + Создание секретной папки (Пароль "topsecret")
   
   + Очистка всех журналов Windows.
   + Очистка вызовов wevtutil
@@ -43,7 +43,7 @@ p0dcleaner - utility to clean 99% of Windows activity history. ( I think, it's b
 
 Functional:
 
-  + Create a secret folder
+  + Create a secret folder (password "topsecret")
   
   + Clearing all Windows logs.
   + Clean up wevtutil calls
