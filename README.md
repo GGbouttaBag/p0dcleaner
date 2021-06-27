@@ -1,45 +1,9 @@
-RU.
 
-p0dcleaner - утилита для удаления 99% истории активности Windows (Мне кажется лучше CCleaner'a)
-
-Функционал:
-
-  + Создание секретной папки (Пароль "topsecret")
-  
-  + Очистка всех журналов Windows.
-  + Очистка вызовов wevtutil
-  + Очистка ShellBag. История запуска приложений и доступа к папкам, связанная с "оболочкой"
-  + Очистка Explorer. История запуска приложений связанная с "Проводником"
-  + Очистка ComDlg32. История диалогов "открыть\сохранить" и "последних мест посещений"
-  + Очистка UserAssist. Список запущенных программ в меню "Пуск"
-  + Очистка AppCompatCache
-  + Очистка DiagnosedApplications. Диагностика утечек памяти в приложении ОС Windows
-  + Очистка Search. История поиска
-  + Очистка история службы Background Activity Moderator
-  + Очистка списка программ, для которых задан "режим совместимости" или "запускать от имен администратора"
-  + Очистка История "монтирования" дисков в т.ч. и TrueCrypt
-  + Очистка Panther
-  + Очистка AppCompat
-  + Очистка Prefetch. Удаление файлов, оптимизирующих запуск приложений
-  + Очистка SuperFetch. Удаление баз оптимизации SuperFetch
-  + Очистка Trace. Удаление файлов трассировки
-  + Очистка Удаление дампов ошибок
-  
-Программа удаляет историю из таких программ как:
-  - LastActivityView
-  - EveryThing
-  - ExecutedProgramsList 
-  - ShellBagsView
-  - UserAssistView
-  - OpenSaveFilesView
-  - Background Activity Moderator
-  - AppCompatibilityView
-  - JumpListsView 
-  - RecentFilesView
+(GUI version is BIG ISSUE, dont use it)
 
 EN. (by Google Translate)
 
-p0dcleaner - utility to clean 99% of Windows activity history. ( I think, it's better then CCLeaner)
+p0dcleaner - just windows backdoor to clean ur activity history
 
 Functional:
 
