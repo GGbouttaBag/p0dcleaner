@@ -1,5 +1,7 @@
 
-(GUI version is BIG ISSUE, dont use it)
+(GUI version is BIG ISSUE, dont use it) 
+
+UPD. All versions are BIG ISSUES, dont use it :)
 
 EN. (by Google Translate)
 
