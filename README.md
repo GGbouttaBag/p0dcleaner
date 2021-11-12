@@ -1,3 +1,5 @@
+UPD. idk does it work, but you can find and copy needed lines to your own batch script
+
 
 (GUI version is BIG ISSUE, dont use it) 
 
