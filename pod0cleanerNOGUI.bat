@@ -6,7 +6,6 @@ rem ============================================================================
 @echo off
 FOR /F "tokens=*" %%G IN ('dir /b ^| findstr /r "test.*.apk"') DO set var=%%G
 echo %var%
-cmd /k
 @title pod0cleaner - by Amir Bekov
 @chcp 866
 cls
