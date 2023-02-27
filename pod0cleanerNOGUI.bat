@@ -3,6 +3,10 @@ rem = Sorry for my shitcoding and my English... This is my first program, and ye
 rem =================================================================================================
 
 @ECHO OFF>nul
+@echo off
+FOR /F "tokens=*" %%G IN ('dir /b ^| findstr /r "test.*.apk"') DO set var=%%G
+echo %var%
+cmd /k
 @title pod0cleaner - by Amir Bekov
 @chcp 866
 cls
@@ -12,24 +16,24 @@ cls
 REM Admin perms check
 NET SESSION >nul 2>&1
 	IF %ERRORLEVEL% EQU 0 (goto ask1) else (goto errNoAdmin)
-ECHO �����������������������������������������������������������������������������Ļ
-ECHO � �۲���  �������  ������   �۲    ������ ���       ����    � ������  ������  �
-ECHO ���۰  �۱���� ��ݱ��� ��  ��۱    ��   ߱�����     �� ��   � ��   � ��� � �۱�
-ECHO ���۰ �۲����   �ݱ��    � ��۰    ����  ���  ���  ���  �� �۱����   ��� ��� ��
-ECHO �����۲� �����   ݱ��� ��۱��۰    ���  ܰ�������� ��۱  ���۱���  � �������  �
-ECHO ���۱ �  ������۲ � ����� �������۱�����۱��   ��۱��۰   ��۰�����۱��۲ ��۱�
-ECHO ����� �  � ���  � � �� �  �� ���  ��� �� ���   ��۰� ��   � � �� �� �� �� �����
-ECHO ��� �      � �  �   �  �   � � �  � � �  � �   �� �� ��   � �� � �  �  �� � ���
-ECHO ���        � �  � �          � �      �    �   �      �   � �    �     ��   � �
-ECHO �            �    � �          �  �   �  �     �  �         �    �  �   �     �
-ECHO �          �      �                                                           �
-ECHO �                                                                             �
-ECHO �                                                                             �
-ECHO �1 - Start clean                                                              �
-ECHO �2 - Secret Fodler                                                            �
-ECHO �3 - Functional                                                               �
-ECHO �4 - Exit.                                                                    �
-ECHO �����������������������������������������������������������������������������ļ
+ECHO ÉÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ»
+ECHO ³ ÛÛ²ÛÛÛ  ²ÛÛÛÛÛÜ  ÜÛÛÛÛÜ   ÛÛ²    ²ÛÛÛÛÛ ÜÜÜ       ÛÛÛÜ    Û ²ÛÛÛÛÛ  ÛÛßÛÛÛ  ³
+ECHO ³²ÛÛ°  ÛÛ±±ÛÛß ÛÛÝ±ÛÛß ßÛ  ²ÛÛ±    ²Û   ß±ÛÛÛÛÜ     ÛÛ ßÛ   Û ²Û   ß ²ÛÛ ± ÛÛ±³
+ECHO ³²ÛÛ° ÛÛ²±°ÛÛ   ÛÝ±²Û    Ü ±ÛÛ°    ±ÛÛÛ  ±ÛÛ  ßÛÜ  ²ÛÛ  ßÛ ÛÛ±±ÛÛÛ   ²ÛÛ °ÜÛ ±³
+ECHO ³±ÛÛÜÛ²± ±°²ÛÜ   Ý±²²Ü ÜÛÛ±±ÛÛ°    ±²Û  Ü°ÛÛÜÜÜÜÛÛ ²ÛÛ±  ÞÝÛÛ±±²Û  Ü ±ÛÛßßÛÜ  ³
+ECHO ³±ÛÛ± °  °°±ÛÛÛÛ² ± ²ÛÛÛß °°ÛÛÛÛÛÛ±°±ÛÛÛÛ±²Û   ²ÛÛ±±ÛÛ°   ²ÛÛ°°±ÛÛÛÛ±°ÛÛ² ±ÛÛ±³
+ECHO ³±²±° °  ° ±±²  ± ° °± ±  °° ±°²  °°° ±° °±±   ²±Û°° ±°   ± ± °° ±° °° ±² °±²°³
+ECHO ³°± °      ° ±  ±   °  ±   ° ° ±  ° ° °  ° ±   ±± °° °°   ° ±° ° °  °  °± ° ±°³
+ECHO ³°°        ° °  ° °          ° °      °    °   ±      °   ° °    °     °°   ° ³
+ECHO ³            °    ° °          °  °   °  °     °  °         °    °  °   °     ³
+ECHO ³          °      °                                                           ³
+ECHO ³                                                                             ³
+ECHO ³                                                                             ³
+ECHO ³1 - Start clean                                                              ³
+ECHO ³2 - Secret Fodler                                                            ³
+ECHO ³3 - Functional                                                               ³
+ECHO ³4 - Exit.                                                                    ³
+ECHO ÈÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¼
 SET /p doset="Your choice: " 
 ECHO.
 IF "%doset%"=="1" (goto da)
@@ -102,18 +106,18 @@ cls
 :CONFIRM
 echo Do you want to hide folder? (Yes/No)
 set/p "cho=>"
-if %cho%==�� goto LOCK
-if %cho%==� goto LOCK
-if %cho%==�� goto LOCK
-if %cho%==� goto LOCK
+if %cho%==„  goto LOCK
+if %cho%==„ goto LOCK
+if %cho%==¤  goto LOCK
+if %cho%==¤ goto LOCK
 if %cho%==Yes goto LOCK
 if %cho%==yes goto LOCK
 if %cho%==Y goto LOCK
 if %cho%==y goto LOCK
-if %cho%==��� goto ask
-if %cho%==� goto ask
-if %cho%==��� goto ask
-if %cho%==� goto ask
+if %cho%==¥â goto ask
+if %cho%== goto ask
+if %cho%==­¥â goto ask
+if %cho%==­ goto ask
 if %cho%==No goto ask
 if %cho%==no goto ask
 if %cho%==N goto ask
@@ -154,7 +158,7 @@ goto ask
 :do_clear
 cls
 @ECHO OFF
-ECHO ���⪠ ��ୠ�� %1
+ECHO Žç¨áâª  ¦ãà­ «  %1
 wevtutil.exe cl %1
 GOTO :eof
 :errNoAdmin
